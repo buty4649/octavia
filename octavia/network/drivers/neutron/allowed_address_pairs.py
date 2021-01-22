@@ -33,7 +33,7 @@ from octavia.network.drivers.neutron import utils
 LOG = logging.getLogger(__name__)
 AAP_EXT_ALIAS = 'allowed-address-pairs'
 PROJECT_ID_ALIAS = 'project-id'
-OCTAVIA_OWNER = 'Octavia'
+OCTAVIA_OWNER = 'compute:Octavia'
 
 CONF = cfg.CONF
 
